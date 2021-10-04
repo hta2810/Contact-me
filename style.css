@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Nunito', sans-serif;
-	color: black;
+	color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +37,7 @@
 .header h3{
 	font-size: 30px;
 	font-style: bolder;
+	text-shadow: 2px 3px 3px cyan;
 }
 .wrapper {
 	display: block;
@@ -94,7 +95,7 @@
     padding: 5px;
 }
  .wrapper nav :hover{
- 	background: #E5E4E2;
+ 
 }
 .wrapper nav .slider{
 	position: absolute;
@@ -143,8 +144,10 @@ section .content{
 	border-left: 1px solid  rgba(255, 255, 255, 0.5);
 	border-radius: 22px;
 	text-decoration: none;
-	background-color: white;
+	color: #000;
+    backdrop-filter: blur(2px);
 	padding: 5px;
+	text-decoration: none;
 }
 
 .audio {
@@ -186,11 +189,10 @@ section .content{
     text-align: center;
 }
 .content .tag:hover{
-	background-color: #E5E4E2;
+	color: #000;
+    backdrop-filter: blur(10px);
 }
 .content .audio:hover{
-	background-color: #E5E4E2;
-}
-.header h3:hover{
-	text-shadow: 0 1px 2px cyan;
+	color: #000;
+    backdrop-filter: blur(10px);
 }
