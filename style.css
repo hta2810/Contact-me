@@ -39,6 +39,11 @@
 	font-style: bolder;
 	text-shadow: 2px 3px 3px cyan;
 }
+.header h4{
+	font-size: 20px;
+	font-style: bolder;
+
+}
 .wrapper {
 	display: block;
 	margin-left: auto;
