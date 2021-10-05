@@ -11,18 +11,18 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
-     user-select: none; /* Standard syntax */
-     
+    user-select: none; /* Standard syntax */
+}
+body {
+  margin-top: 3%;
+  width: 100%;
 }
 .html {
   scroll-behavior: smooth;
 }
 .header {
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
 	padding: 15px;
-	top: 25px;
 	text-align: center;
 }
 .header img{
@@ -32,7 +32,6 @@
 	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     border-left: 1px solid  rgba(255, 255, 255, 0.5);
-    margin-bottom: 12px;
 }
 .header h3{
 	font-size: 30px;
@@ -48,7 +47,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	padding: 15px;
-	margin-bottom: 15px;
 	max-width: 300px;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
 	border-left: 1px solid  rgba(255, 255, 255, 0.5);
@@ -199,4 +197,12 @@ section .content{
 .content .audio:hover{
 	color: #000;
     backdrop-filter: blur(10px);
+}
+
+.copyright {
+	display: block;
+	position: static;
+	padding: 2%;
+	text-align: center;
+	bottom: 0;
 }
