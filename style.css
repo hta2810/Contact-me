@@ -203,6 +203,7 @@ section .content{
 	display: block;
 	position: static;
 	padding: 2%;
+	margin-top: 10px;
 	text-align: center;
 	bottom: 0;
 	font-size: 12px;
